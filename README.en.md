@@ -10,7 +10,8 @@
 <p align="center">
   <b>A modern Discord bot that detects users with Discord's new clan tag feature and automatically assigns them roles.</b>
 </p>
-
+<img src="https://i.postimg.cc/xT5bnVXG/image.png" alt="Görsel 1">
+<img src="https://i.postimg.cc/d0k7274n/image.png" alt="Görsel 2">
 ## 📋 Features
 
 - ✅ **Automatic Tag Checking**: Checks users' clan tags every 10 seconds
