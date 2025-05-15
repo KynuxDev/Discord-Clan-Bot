@@ -10,6 +10,8 @@
 <p align="center">
   <b>Discord'un yeni clan tag özelliğini kullanan kullanıcıları tespit edip, onlara otomatik rol veren modern bir bot.</b>
 </p>
+<img src="https://i.postimg.cc/xT5bnVXG/image.png" alt="Görsel 1">
+<img src="https://i.postimg.cc/d0k7274n/image.png" alt="Görsel 2">
 
 ## 📋 Özellikler
 
