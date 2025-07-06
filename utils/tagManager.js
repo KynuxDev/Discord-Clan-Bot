@@ -29,7 +29,6 @@ async function checkUserTag(client, member, silent = true) {
             await member.roles.add(tagRole.id);
             result.roleChanged = true;
             
-            // İstatistik güncelle
             db.add('stats.roleAdded', 1);
             
             if (!silent) {
