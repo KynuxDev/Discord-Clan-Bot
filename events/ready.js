@@ -8,7 +8,6 @@ module.exports = {
   async execute(client) {
     console.log(`${client.user.tag} olarak giriş yapıldı!`);
     
-    // Bot durumunu ayarla
     client.user.setPresence({
       activities: [{ name: 'OHIO IS ALWAYS THE BEST', type: ActivityType.Watching }],
       status: 'online',
