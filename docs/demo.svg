@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" fill="none">
+  <style>
+    @keyframes t1 { 0%,8% { opacity:0 } 9%,100% { opacity:1 } }
+    @keyframes t2 { 0%,14% { opacity:0 } 15%,100% { opacity:1 } }
+    @keyframes t3 { 0%,20% { opacity:0 } 21%,100% { opacity:1 } }
+    @keyframes t4 { 0%,26% { opacity:0 } 27%,100% { opacity:1 } }
+    @keyframes t5 { 0%,32% { opacity:0 } 33%,100% { opacity:1 } }
+    @keyframes t6 { 0%,38% { opacity:0 } 39%,100% { opacity:1 } }
+    @keyframes t7 { 0%,48% { opacity:0 } 49%,100% { opacity:1 } }
+    @keyframes t8 { 0%,56% { opacity:0 } 57%,100% { opacity:1 } }
+    @keyframes t9 { 0%,64% { opacity:0 } 65%,100% { opacity:1 } }
+    @keyframes t10 { 0%,72% { opacity:0 } 73%,100% { opacity:1 } }
+    @keyframes t11 { 0%,80% { opacity:0 } 81%,100% { opacity:1 } }
+    @keyframes cursor { 0%,49% { opacity:1 } 50%,100% { opacity:0 } }
+    .l1 { animation: t1 8s infinite } .l2 { animation: t2 8s infinite }
+    .l3 { animation: t3 8s infinite } .l4 { animation: t4 8s infinite }
+    .l5 { animation: t5 8s infinite } .l6 { animation: t6 8s infinite }
+    .l7 { animation: t7 8s infinite } .l8 { animation: t8 8s infinite }
+    .l9 { animation: t9 8s infinite } .l10 { animation: t10 8s infinite }
+    .l11 { animation: t11 8s infinite }
+    .cur { animation: cursor 1s step-end infinite }
+    text { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'SF Mono', Consolas, monospace; font-size: 13px; }
+    .dim { fill: #555 } .grn { fill: #4ade80 } .ylw { fill: #fbbf24 } .wht { fill: #e5e5e5 } .gry { fill: #777 }
+  </style>
+
+  <!-- Window -->
+  <rect width="800" height="420" rx="14" fill="#0a0a0a"/>
+  <rect width="800" height="42" rx="14" fill="#111"/>
+  <rect y="28" width="800" height="14" fill="#111"/>
+  <line x1="0" y1="42" x2="800" y2="42" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Title bar dots -->
+  <circle cx="24" cy="21" r="6" fill="#333"/>
+  <circle cx="44" cy="21" r="6" fill="#333"/>
+  <circle cx="64" cy="21" r="6" fill="#333"/>
+  <text x="370" y="25" text-anchor="middle" fill="#444" font-size="11">Discord-Clan-Bot</text>
+
+  <!-- Terminal lines -->
+  <g class="l1"><text x="24" y="78" class="dim">$</text><text x="40" y="78" class="gry">node src/index.js</text></g>
+  <g class="l2"><text x="24" y="112" class="gry">[BOT]</text><text x="70" y="112" class="dim">Discord Clan Bot v2.1.0 starting...</text></g>
+  <g class="l3"><text x="24" y="142" class="grn">[OK]</text><text x="62" y="142" class="dim">Connected to Discord Gateway</text></g>
+  <g class="l4"><text x="24" y="168" class="grn">[OK]</text><text x="62" y="168" class="dim">SQLite database initialized</text></g>
+  <g class="l5"><text x="24" y="194" class="grn">[OK]</text><text x="62" y="194" class="dim">15 slash commands registered</text></g>
+  <g class="l6"><text x="24" y="220" class="grn">[OK]</text><text x="62" y="220" class="dim">Live dashboard running on :3000</text></g>
+
+  <g class="l7"><text x="24" y="262" class="dim">$</text><text x="40" y="262" class="gry">/clan-check @everyone</text></g>
+  <g class="l8"><text x="24" y="296" class="wht">  Scanned 142 members in 0.8s</text></g>
+  <g class="l9"><text x="24" y="322" class="grn">  138 correct</text><text x="140" y="322" class="ylw">| 4 missing tag</text></g>
+  <g class="l10"><text x="24" y="348" class="ylw">  Server streak: 45 days</text></g>
+  <g class="l11"><text x="24" y="388" class="dim">$</text><rect x="38" y="376" width="8" height="16" fill="#555" class="cur"/></g>
+</svg>

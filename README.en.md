@@ -30,6 +30,16 @@
 
 ---
 
+<div align="center">
+
+### 🎬 Demo
+
+<img src="docs/demo.svg" width="700" alt="Discord Clan Bot Terminal Demo"/>
+
+</div>
+
+---
+
 ## ✨ Key Features
 
 <table>
