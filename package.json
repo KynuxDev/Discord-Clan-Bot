@@ -1,0 +1,50 @@
+{
+  "name": "discord-clan-bot",
+  "version": "2.1.0",
+  "description": "Smart Discord bot that automatically tracks clan tags, manages roles, offers streak tracking, live dashboards, and multi-guild support.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "migrate": "node scripts/migrate-v1.js",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "clan",
+    "tag",
+    "role-management",
+    "discord.js",
+    "slash-commands",
+    "multi-guild",
+    "leaderboard",
+    "streak",
+    "dashboard",
+    "sqlite"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KynuxDev/Discord-Clan-Bot.git"
+  },
+  "homepage": "https://github.com/KynuxDev/Discord-Clan-Bot#readme",
+  "bugs": {
+    "url": "https://github.com/KynuxDev/Discord-Clan-Bot/issues"
+  },
+  "author": "KynuxDev (https://github.com/KynuxDev)",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.20.0",
+    "dotenv": "^16.5.0",
+    "sql.js": "^1.11.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0"
+  }
+}
